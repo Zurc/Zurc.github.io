@@ -1,0 +1,16 @@
+body{
+	background-color: red;
+}
+
+header{
+	background: grey;	
+}
+
+.container{
+	background: green;
+}
+
+
+footer {
+	background: brown;
+}
