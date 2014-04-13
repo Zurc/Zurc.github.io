@@ -1,27 +1,27 @@
 body {
 	background: #e3e3e3;
-
+	margin: 8px;
+	padding: 0;
 }
 
 @font-face{ 
 	font-family: 'Archistico_Simple-webfont';
-	src: url('Archistico_Simple-webfont.eot');
-	src: url('Archistico_Simple-webfont.eot?iefix') format('eot'),
-	     url('Archistico_Simple-webfont.woff') format('woff'),
-	     url('Archistico_Simple-webfont.ttf') format('truetype'),
-	     url('Archistico_Simple-webfont.svg#webfont') format('svg');
+	src: url('css/Archistico_Simple-webfont.eot');
+	src: url('css/Archistico_Simple-webfont.eot?iefix') format('eot'),
+	     url('css/Archistico_Simple-webfont.woff') format('woff'),
+	     url('css/Archistico_Simple-webfont.ttf') format('truetype'),
+	     url('css/Archistico_Simple-webfont.svg#webfont') format('svg');
 }
-
 
 header {
 	background: #1C94C4;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px #333;
-	color: #fff;
+	color: #000;
 	font-family: 'Archistico_Simple-webfont', Arial, sans-serif;
+	font-size: 4em;
 	text-align: center;
 	margin: 0 auto;
-	padding: 12px;
 }
 
 .wrapper {
