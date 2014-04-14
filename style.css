@@ -31,9 +31,21 @@ header {
 	text-align: center;
 	margin: 0 auto;
 }
+.sub-acc-headers {
+	color: #ccc;
+	text-transform: lowercase;
+	font-weight: lighter;
+}
+
+.sub-acc-headers:before {
+    content: " -> ";
+    /* style */
+}
+
 
 .wrapper {
-	margin: 0 auto; 
+	margin: 0 auto 1em; 
+
 }
 .wrapper h2 {
 	color: #555;
@@ -46,5 +58,5 @@ header {
 
 /*
 color azul claro:    #1C94C4
-color azul oscuro:    #1f80af 
+color azul oscuro:    #1f80af
 */

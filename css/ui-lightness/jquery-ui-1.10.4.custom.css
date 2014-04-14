@@ -946,7 +946,7 @@ body .ui-tooltip {
 	background-image: url("images/ui-icons_ef8c08_256x240.png");
 }
 .ui-state-active .ui-icon {
-	background-image: url("images/ui-icons_ef8c08_256x240.png");
+	/* background-image: url("images/ui-icons_ef8c08_256x240.png"); */
 }
 .ui-state-highlight .ui-icon {
 	background-image: url("images/ui-icons_228ef1_256x240.png");
