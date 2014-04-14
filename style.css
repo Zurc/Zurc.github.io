@@ -1,7 +1,12 @@
 body {
-	background: #e3e3e3;
+	background: #f3f3f3;
+	font-family: 'Open Sans', Arial, sans-serif;
 	margin: 8px;
 	padding: 0;
+}
+
+p {
+	margin: 0;
 }
 
 @font-face{ 
@@ -13,12 +18,15 @@ body {
 	     url('css/Archistico_Simple-webfont.svg#webfont') format('svg');
 }
 
+.Arch-Simple-font {
+		font-family: 'Archistico_Simple-webfont', Arial, sans-serif;
+}
+
 header {
 	background: #1C94C4;
 	border-radius: 10px;
 /*	box-shadow: 5px 5px 5px #333;
 */	color: #fff;
-	font-family: 'Archistico_Simple-webfont', Arial, sans-serif;
 	font-size: 4em;
 	text-align: center;
 	margin: 0 auto;
@@ -27,7 +35,16 @@ header {
 .wrapper {
 	margin: 0 auto; 
 }
-
+.wrapper h2 {
+	color: #555;
+	text-transform: uppercase;
+	/* line-height: 1.3; */
+}
 .wrapper p {
 	color: #888;
 }
+
+/*
+color azul claro:    #1C94C4
+color azul oscuro:    #1f80af 
+*/
