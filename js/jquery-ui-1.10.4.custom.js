@@ -5300,9 +5300,9 @@ showProps.height = showProps.paddingTop = showProps.paddingBottom =
 $.widget( "ui.accordion", {
 	version: "1.10.4",
 	options: {
-		active: 0,
+		active: false,
 		animate: {},
-		collapsible: false,
+		collapsible: true,
 		event: "click",
 		header: "> li > :first-child,> :not(li):even",
 		heightStyle: "auto",
