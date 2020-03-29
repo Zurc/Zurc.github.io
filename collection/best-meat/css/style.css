@@ -417,7 +417,7 @@ section {
   margin: 0;
 }
 
-.row .columns:nth-child(even) {
+.row .columns:nth-child(odd) {
   margin-left: 0;
 }
 
