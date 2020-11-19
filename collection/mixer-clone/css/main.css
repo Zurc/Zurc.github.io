@@ -1,0 +1,250 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+html, body {
+    background: #253141;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(
+        to bottom, 
+        rgba(37, 49, 65, .5) 0%,
+        #253141 100%), 
+        url('https://www.nme.com/wp-content/uploads/2020/07/071720-Assassins-Creed-Valhalla-Ubisoft-1392x884.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+header .left-menu {
+    display: flex;
+}
+header .left-menu .logo {
+    font-size: 2rem;
+    color: white;
+}
+header .left-menu .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+header .left-menu .menu a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+header .left-menu .menu a:last-child:after {
+    content: '\2335';
+    display: inline-block;
+    font-size: 1.3rem;
+
+    /* transform: rotate(-90deg); */
+}
+header .left-menu .menu a:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: all .2s ease-in-out;
+}
+header .right-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .right-menu .language {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding: 0 60px 0 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+header .right-menu .signin {
+    background: #0375d5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.section-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#featured {
+    padding: 50px 0 50px;
+}
+#featured .videos {
+    display: grid;
+    grid-template-columns: 1fr 2fr 620px 2fr 1fr;
+    grid-gap: 10px;
+}
+#featured .videos .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#featured .videos .video .image1 {
+    background: url("https://www.somagnews.com/wp-content/uploads/2020/09/29134514946561.jpg");
+}
+#featured .videos .video .image2 {
+    background: url("https://specials-images.forbesimg.com/imageserve/5eb42e3c6c4c1f000652ddd1/960x0.jpg?fit=scale");
+}
+#featured .videos .video .image4 {
+    background: url("https://i.gadgets360cdn.com/large/miles_morales_gameplay_1600292492809.jpeg?downsize=360:*&output-quality=80");
+}
+#featured .videos .video .image5 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKJjkR9Hm888Wpz2PcpC_3q5BThscMkMh3Gg&usqp=CAU");
+}
+#featured .videos .video .image {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#featured .videos .video.center {
+    width: 100%;
+    height: 349px;
+    background: red;
+}
+#featured .videos .video.center .image {
+    width: 100%;
+    height: 349px;
+    background: url("https://10xhkhmqapoq.cdn.shift8web.com/wp-content/uploads/2020/09/Assassins-Creed-Valhalla-a-new-gameplay-video-with-exploration-and-750x375.jpg");
+    transform: scale(1.02);
+    border: 2px solid #00b4f0;
+}
+#featured .videos .video:nth-child(1) .image,
+#featured .videos .video:nth-child(5) .image {
+    position: relative;
+}
+#featured .videos .video:nth-child(1) .image .arrow {
+    position: absolute;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3rem;
+    padding: 0 20px;
+    color: #00b4f0;
+    transition: all .2s ease-in-out;
+}
+#featured .videos .video:nth-child(1) .image .arrow:hover {
+    background: rgba(0,0,0,.8);
+}
+#featured .videos .video:nth-child(5) .image .arrow {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    padding: 0 20px;
+    color: #00b4f0;
+    transition: all .2s ease-in-out;
+}
+#featured .videos .video:nth-child(5) .image .arrow:hover {
+    background: rgba(0,0,0,.8);
+}
+#featured .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+#featured .circles .circle {
+    font-size: .3rem;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#featured .circles .circle:hover {
+    font-size: .6rem;
+    padding: 8px;
+    color: #00b4f0;
+}
+#featured .circles .circle.active {
+    font-size: .6rem;
+    color: #00b4f0;
+}
+#featured .circles .circle.active:hover {
+    padding: .65rem;
+}
+
+#top-games {
+    margin-bottom: 2rem;
+}
+#top-games .games {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+#top-games .games .game1 {
+    background: url("https://i2.wp.com/fullsync.co.uk/wp-content/uploads/2020/07/md_2483441.jpg?resize=640%2C366&ssl=1");
+}
+#top-games .games .game2 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdYy2TnYPH1aulQmVvqkmmOP41MEbLlBpQPQ&usqp=CAU");
+}
+#top-games .games .game3 {
+    background: url("https://www.extremetech.com/wp-content/uploads/2018/09/Spider-Man-640x353.jpg");
+    /* background-position: top center; */
+}
+#top-games .games .game4 {
+    background: url("https://www.denofgeek.com/wp-content/uploads/2019/12/halo-infinite.jpg?resize=768%2C432");
+    /* background-position: top center; */
+}
+#top-games .games .game5 {
+    background: url("https://blog.turtlebeach.com/wp-content/uploads/2020/09/sd.png");
+}
+#top-games .games .game6 {
+    background: url("https://www.trustedreviews.com/wp-content/uploads/sites/54/2018/01/Age-of-Empires-4-image-credit-Microsoft-920x484.png");
+}
+#top-games .games .game {
+    /* background: url("https://picsum.photos/id/1018/240/250"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    overflow: hidden;
+    cursor: pointer;
+}
+#top-games .games .game .info {
+    background: #253141;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+#top-games .games .game:hover .info {
+    background: #313f52;
+}
+#top-games .games .game .info .title {
+    font-weight: 500;
+    padding: 5px;
+    
+}
+#top-games .games .game .info .views {
+    color: #8c919d;
+    padding: 5px;
+}
