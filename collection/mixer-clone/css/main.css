@@ -12,6 +12,7 @@ html, body {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    background-attachement: fixed;
     padding-bottom: 10px;
 }
 header {
