@@ -8,7 +8,7 @@ html, body {
         to bottom, 
         rgba(37, 49, 65, .5) 0%,
         #253141 100%), 
-        url('https://www.nme.com/wp-content/uploads/2020/07/071720-Assassins-Creed-Valhalla-Ubisoft-1392x884.jpg');
+        url('../images/big_ass.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -97,13 +97,13 @@ header .right-menu .signin {
     align-items: center;
 }
 #featured .videos .video .image1 {
-    background: url("https://www.somagnews.com/wp-content/uploads/2020/09/29134514946561.jpg");
+    background: url("../images/river.jpg");
 }
 #featured .videos .video .image2 {
-    background: url("https://specials-images.forbesimg.com/imageserve/5eb42e3c6c4c1f000652ddd1/960x0.jpg?fit=scale");
+    background: url("../images/tree.jpg");
 }
 #featured .videos .video .image4 {
-    background: url("https://i.gadgets360cdn.com/large/miles_morales_gameplay_1600292492809.jpeg?downsize=360:*&output-quality=80");
+    background: url("../images/light.webp");
 }
 #featured .videos .video .image5 {
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKJjkR9Hm888Wpz2PcpC_3q5BThscMkMh3Gg&usqp=CAU");
