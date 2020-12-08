@@ -123,8 +123,8 @@ header .right-menu .signin {
 }
 #featured .videos .video.center .image {
     width: 100%;
-    max-height: 349px;
-    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assassins-creed-valhalla-iconic-england-female-eivor-1588330153.jpg");
+    height: 349px;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assassins-creed-valhalla-iconic-england-female-eivor-1588330153.jpg?resize=*:349");
     transform: scale(1.02);
     border: 2px solid #00b4f0;
 }
